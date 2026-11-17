@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip influencer-duo-v5.zip
+        run: unzip influencer-duo-v6.zip
       - name: Build
         run: xcodebuild -project InfluenceStarDuo.xcodeproj -scheme InfluenceStarDuo -destination 'generic/platform=iOS' CODE_SIGNING_ALLOWED=NO build
